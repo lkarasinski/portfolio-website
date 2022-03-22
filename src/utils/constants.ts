@@ -7,7 +7,14 @@ export const breakpoints = {
     desktop: '1025px',
 };
 
-export const colors = {
+export type ColorSchemeType = {
+    background: string;
+    foreground: string;
+};
+
+export type ColorsType = Record<string, ColorSchemeType>;
+
+export const colors: ColorsType = {
     goldfish: {
         background: '#F1F5FD',
         foreground: '#0C235A',
