@@ -1,10 +1,10 @@
 export const breakpoints = {
     // Max value for mobile screen width
-    mobile: '540px',
+    mobile: '628px',
     // Max value for tablet screen width
-    tablet: '1024px',
+    tablet: '1064px',
     // Min value for desktop screen width
-    desktop: '1025px',
+    desktop: '1065px',
 };
 
 export type ColorSchemeType = {
