@@ -37,7 +37,7 @@ const MyWorkPanel = () => {
                         href="/goldfish"
                     />
                     <WorkCard
-                        heading="Biebot"
+                        heading="Bienbot"
                         description="Discord bot with dashboard"
                         imageUrl="/placeholder.png"
                         colorScheme={colors.bienbot}
