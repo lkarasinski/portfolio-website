@@ -1,15 +1,22 @@
-import { breakpoints } from '@constants';
+import { breakpoints, colors } from '@constants';
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
         box-sizing: border-box;
+        outline-color: ${colors.goldfish.foreground};
+    }
+
+    
+    html{
+        scrollbar-gutter: stable;
     }
 
     body {
         font-family: 'Open Sans', sans-serif;
         color: #0C235A;
         margin: 0;
+        overflow-x: hidden;
     }
 
     h1{
