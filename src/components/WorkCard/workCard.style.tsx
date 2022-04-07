@@ -1,7 +1,8 @@
+import { motion } from 'framer-motion';
 import { ColorSchemeType } from 'src/utils/constants';
 import styled from 'styled-components';
 
-export const ContentContainer = styled.div`
+export const ContentContainer = styled(motion.a)`
     padding: 30px 30px 0 30px;
     display: flex;
     flex-direction: column;
@@ -11,9 +12,12 @@ export const ContentContainer = styled.div`
 export const ImageWrapper = styled.div`
     transition: transform 0.3s ease;
     transform: translateY(40px);
+    z-index: 0;
 `;
 
-export const StyledWrapper = styled.article<{ colorScheme: ColorSchemeType }>`
+export const StyledWrapper = styled(motion.article)<{
+    colorScheme: ColorSchemeType;
+}>`
     display: grid;
     place-items: center;
     max-width: 600px;
@@ -36,7 +40,10 @@ export const StyledWrapper = styled.article<{ colorScheme: ColorSchemeType }>`
         margin: 0;
     }
 
-    :hover {
+    outline-color: ${({ colorScheme }) => colorScheme.foreground};
+
+    :hover,
+    :focus {
         ${ImageWrapper} {
             transform: translateY(20px);
         }
