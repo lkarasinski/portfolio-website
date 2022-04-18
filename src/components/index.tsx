@@ -4,3 +4,4 @@ export * from './WorkCard';
 export * from './MyWorkPanel';
 export * from './ContactPanel';
 export * from './TextSection';
+export * from './VideoPlayer';
