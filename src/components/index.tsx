@@ -5,3 +5,4 @@ export * from './MyWorkPanel';
 export * from './ContactPanel';
 export * from './TextSection';
 export * from './VideoPlayer';
+export * from './TechnologyPanel';
