@@ -4,5 +4,6 @@ export * from './WorkCard';
 export * from './MyWorkPanel';
 export * from './ContactPanel';
 export * from './TextSection';
+export * from './ProjectPage';
 export * from './VideoPlayer';
 export * from './TechnologyPanel';
