@@ -34,14 +34,14 @@ const MyWorkPanel = () => {
                         description="Garbage packaging company website "
                         imageUrl="/placeholder.png"
                         colorScheme={colors.daga}
-                        href="/goldfish"
+                        href="/daga"
                     />
                     <WorkCard
                         heading="Bienbot"
                         description="Discord bot with dashboard"
                         imageUrl="/placeholder.png"
                         colorScheme={colors.bienbot}
-                        href="/adpero"
+                        href="/bienbot"
                     />
                 </HorizontalCards>
             </WorkCardContainer>
