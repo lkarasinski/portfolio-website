@@ -10,13 +10,22 @@ export const GlobalStyle = createGlobalStyle`
     
     html{
         scrollbar-gutter: stable;
-    }
+        overflow-x: hidden;
+        overflow-y: scroll;
 
+    }
+    
+    
     body {
         font-family: 'Open Sans', sans-serif;
         color: #0C235A;
         margin: 0;
         overflow-x: hidden;
+        line-height: 1.5;
+        @media (max-width: ${breakpoints.tablet}) {
+            padding: 0 10px;
+        }
+        padding-bottom: 200px;
     }
 
     h1{
