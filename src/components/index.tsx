@@ -7,3 +7,4 @@ export * from './TextSection';
 export * from './ProjectPage';
 export * from './VideoPlayer';
 export * from './TechnologyPanel';
+export * from './PageTransition';
