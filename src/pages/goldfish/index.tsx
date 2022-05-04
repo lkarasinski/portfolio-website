@@ -8,7 +8,7 @@ const GoldfishPage: NextPage = () => {
         <PageTransition>
             <ProjectPage
                 title="Goldfish"
-                video="placeholder.mp4"
+                video="goldfish.mp4"
                 colorScheme={colors.goldfish}
                 technologies={[
                     'react.svg',
