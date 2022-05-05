@@ -8,7 +8,7 @@ const AdperoPage: NextPage = () => {
         <PageTransition>
             <ProjectPage
                 title="Adpero"
-                video="placeholder.mp4"
+                video="adpero.mp4"
                 colorScheme={colors.adpero}
                 technologies={[
                     'react.svg',

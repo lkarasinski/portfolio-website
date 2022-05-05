@@ -8,7 +8,7 @@ const BienbotPage: NextPage = () => {
         <PageTransition>
             <ProjectPage
                 title="Bienbot"
-                video="placeholder.mp4"
+                video="bienbot.mp4"
                 colorScheme={colors.bienbot}
                 technologies={[
                     'react.svg',

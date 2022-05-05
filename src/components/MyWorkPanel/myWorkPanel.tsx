@@ -16,14 +16,14 @@ const MyWorkPanel = () => {
                     <WorkCard
                         heading="Goldfish"
                         description="Advertisment company website"
-                        imageUrl="/placeholder.png"
+                        imageUrl="/images/goldfish.png"
                         colorScheme={colors.goldfish}
                         href="/goldfish"
                     />
                     <WorkCard
                         heading="Adpero"
                         description="Journey manager"
-                        imageUrl="/placeholder.png"
+                        imageUrl="/images/adpero.png"
                         colorScheme={colors.adpero}
                         href="/adpero"
                     />
@@ -32,14 +32,14 @@ const MyWorkPanel = () => {
                     <WorkCard
                         heading="Daga"
                         description="Garbage packaging company website "
-                        imageUrl="/placeholder.png"
+                        imageUrl="/images/daga.png"
                         colorScheme={colors.daga}
                         href="/daga"
                     />
                     <WorkCard
                         heading="Bienbot"
                         description="Discord bot with dashboard"
-                        imageUrl="/placeholder.png"
+                        imageUrl="/images/bienbot.png"
                         colorScheme={colors.bienbot}
                         href="/bienbot"
                     />

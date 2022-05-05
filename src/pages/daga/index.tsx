@@ -8,7 +8,7 @@ const DagaPage: NextPage = () => {
         <PageTransition>
             <ProjectPage
                 title="Daga"
-                video="placeholder.mp4"
+                video="daga.mp4"
                 colorScheme={colors.daga}
                 technologies={[
                     'react.svg',
