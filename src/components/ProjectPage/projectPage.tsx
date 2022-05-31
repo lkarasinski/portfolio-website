@@ -18,6 +18,7 @@ type ProjectPageProps = {
     children: React.ReactNode;
     colorScheme: ColorSchemeType;
     technologies: string[];
+    liveDisabled?: boolean;
 };
 
 const ProjectPage = ({
@@ -26,6 +27,7 @@ const ProjectPage = ({
     video,
     colorScheme,
     technologies,
+    liveDisabled,
 }: ProjectPageProps) => {
     const router = useRouter();
 
@@ -51,9 +53,14 @@ const ProjectPage = ({
                             <Link href={router.asPath + '/github'}>
                                 <a target="blank">Github</a>
                             </Link>
-                            <Link href={router.asPath + '/live'}>
-                                <a target="blank">View live</a>
-                            </Link>
+                            {!liveDisabled && (
+                                <Link
+                                    aria-disabled={liveDisabled}
+                                    href={router.asPath + '/live'}
+                                >
+                                    <a target="blank">View live</a>
+                                </Link>
+                            )}
                         </nav>
                     </TopContainer>
                 </header>

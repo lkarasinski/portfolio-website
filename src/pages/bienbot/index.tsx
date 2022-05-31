@@ -22,6 +22,7 @@ const BienbotPage: NextPage = () => {
                     'cypress.svg',
                     'awsAmplify.svg',
                 ]}
+                liveDisabled
             >
                 <p>Work in progress</p>
             </ProjectPage>
