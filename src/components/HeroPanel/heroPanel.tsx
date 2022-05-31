@@ -1,5 +1,12 @@
+import {
+    EnvelopeClosedIcon,
+    EnvelopeOpenIcon,
+    GitHubLogoIcon,
+    LinkedInLogoIcon,
+} from '@radix-ui/react-icons';
+import Link from 'next/link';
 import * as React from 'react';
-import { breakpoints } from 'src/utils/constants';
+import { breakpoints, colors } from 'src/utils/constants';
 import styled from 'styled-components';
 
 const HeroPanel = () => {
@@ -7,9 +14,32 @@ const HeroPanel = () => {
         <StyledWrapper>
             <h1>Łukasz Karasiński</h1>
             <h3>front-end web developer</h3>
+            <IconContainer>
+                <a href="mailto:lukasz.karasinski.15@gmail.com">
+                    <EnvelopeClosedIcon height={20} width={20} />
+                </a>
+                <Link href="/github" passHref>
+                    <GitHubLogoIcon height={20} width={20} />
+                </Link>
+                <Link href="/linkedin" passHref>
+                    <LinkedInLogoIcon height={20} width={20} />
+                </Link>
+            </IconContainer>
         </StyledWrapper>
     );
 };
+
+const IconContainer = styled.div`
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    a {
+        color: ${colors.adpero.foreground};
+    }
+    svg {
+        cursor: pointer;
+    }
+`;
 
 const StyledWrapper = styled.section`
     display: grid;
