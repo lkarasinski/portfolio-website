@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                     'framerMotion.svg',
                     'styledComponents.svg',
                     'vanillaExtract.svg',
-                    'xState.svg',
+                    'XState.svg',
                     'cypress.svg',
                     'node.svg',
                     'awsAmplify.svg',

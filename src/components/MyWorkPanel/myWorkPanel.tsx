@@ -45,7 +45,7 @@ const MyWorkPanel = () => {
                     />
                     <WorkCard
                         heading="Bienbot"
-                        description="Discord bot with dashboard"
+                        description="Discord bot with admin dashboard"
                         imageUrl="/images/bienbot.png"
                         colorScheme={colors.bienbot}
                         href="/bienbot"

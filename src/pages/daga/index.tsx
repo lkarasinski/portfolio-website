@@ -19,8 +19,8 @@ const DagaPage: NextPage = () => {
                 ]}
             >
                 <p>
-                    Simple business card website for local company specializing
-                    in garbage packaging solutions.
+                    Simple business card website for a local company
+                    specializing in garbage packaging solutions.
                 </p>
             </ProjectPage>
         </PageTransition>

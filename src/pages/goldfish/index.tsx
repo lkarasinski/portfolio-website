@@ -33,7 +33,7 @@ const GoldfishPage: NextPage = () => {
                     Gatsby had weird issues with this library, so I&#39;ve
                     decided to switch to Framer Motion, which did not cause any
                     problems.
-                    <br /> The contact form is build with Formik, XState for
+                    <br /> The contact form is built with Formik, XState for
                     handling the state and yup for validation. <br />
                     The backend code for the contact form is running on AWS
                     Lambda, and the website is hosted on AWS Amplify.
