@@ -31,4 +31,8 @@ export const colors: ColorsType = {
         background: '#F1F1FE',
         foreground: '#0A0A5C',
     },
+    sorting: {
+        background: '#f4f2fd',
+        foreground: '#1d1056',
+    },
 };

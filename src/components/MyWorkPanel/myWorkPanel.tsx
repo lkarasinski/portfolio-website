@@ -28,13 +28,20 @@ const MyWorkPanel = () => {
                         href="/adpero"
                     />
                 </HorizontalCards>
-                <HorizontalCards columns="400px 600px">
+                <HorizontalCards columns="330px 329px 329px">
                     <WorkCard
                         heading="Daga"
                         description="Garbage packaging company website "
                         imageUrl="/images/daga.png"
                         colorScheme={colors.daga}
                         href="/daga"
+                    />
+                    <WorkCard
+                        heading="Sorting"
+                        description="Sorting visualizer made with Rust and WASM"
+                        imageUrl="/images/sorting.png"
+                        colorScheme={colors.sorting}
+                        href="/sorting"
                     />
                     <WorkCard
                         heading="Bienbot"
