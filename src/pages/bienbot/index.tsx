@@ -16,6 +16,7 @@ const BienbotPage: NextPage = () => {
                     'nx.svg',
                     'next.js.svg',
                     'node.svg',
+                    'express.svg',
                     'styledComponents.svg',
                     'formik.svg',
                     'firebase.svg',
